@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2019, 2:10:05 PM
+    Author     : luong
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---------------------------*/
+/*---------Header------------*/
+/*---------------------------*/
+
+ul {
+    position: relative;
+    left: 50px;
+    top: 65px;
+}
+li a {
+   text-decoration: none;
+   color: #402a21;
+   font-family: sans-serif;
+   font-weight: 500;
+}
+
+li a:hover {
+    color: #9c5a3e;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    width: 110px;
+    text-align: center;
+    
+}
+
+/*---------------------------*/
+/*---------Content-----------*/
+/*---------------------------*/
+
+.content {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    
+    background-image: url("../img/menu_bg.gif"), url("../img/top_box1.gif"), url("../img/bg.jpg");
+    background-repeat: no-repeat,no-repeat, repeat-x;
+    background-position-x: 70px, 50px, 0;
+    background-position-y: 50px, 30px, 0;
+    margin-top: -10px;
+    left: 25%;
+    
+}
+
+/*---------------------------*/
+/*---------Login-------------*/
+/*---------------------------*/
+.login {
+    top: 100px;
+    left: 80px;
+    position: absolute;
+    
+}
+
+#register {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 5px;
+}
+
+
+/*---------------------------*/
+/*---------Take Quiz---------*/
+/*---------------------------*/
+
+.take-quiz-enter {
+    top: 100px;
+    left: 80px;
+    position: absolute;
+}
+
+#start {
+    position: relative;
+    left: 300px;
+}
+

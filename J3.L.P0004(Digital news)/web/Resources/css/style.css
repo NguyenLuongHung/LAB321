@@ -1,0 +1,201 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 15, 2019, 7:51:22 PM
+    Author     : luong
+*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*------------------------------*/
+/*----------Header--------------*/
+/*------------------------------*/
+#header {
+    position: relative;
+    width: 760px;
+    height: 71px;
+    background-image: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border: solid 1px #000;
+    border-bottom: none;
+}
+
+#header-title {
+    position: absolute;
+    left: 22px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    
+}
+
+/*------------------------------*/
+/*----------Menu----------------*/
+/*------------------------------*/
+
+#menu {
+    position: relative;
+    width: 760px;
+    height: 32px;
+    background-image: url("../img/menu.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border: solid 1px #000;
+    border-top: none;
+    border-bottom: none;
+}
+
+#menu-nav {
+    position: absolute;
+    left: 22px;
+    margin-top: 8px;
+    font-size: 80%;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*------------------------------*/
+/*----------Body----------------*/
+/*------------------------------*/
+
+
+.wrapper {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 760px;
+    display: grid;
+    
+    grid-template-columns: 7fr 3fr;
+    grid-auto-rows: auto;
+    grid-gap: 2px;
+    border: 1px solid #000;
+    border-top: none;
+    border-bottom: none;
+    padding-bottom: 50px;
+}
+
+.content {
+    border-right: dashed #999 1px;
+    
+}
+
+/*------------------------------*/
+/*----------Content-------------*/
+/*------------------------------*/
+
+.content-align {
+    margin: 0 22px;
+}
+
+.search-result {
+    margin: 0 22px;
+    margin-top: 50px;
+}
+
+.search-result > a {
+    
+    display: inline-block;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.article-title {
+    color: #555;
+    font-size: 90%;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 0;
+}
+
+.img-title {
+    width: 400px;
+    height: auto;
+}
+
+.author-publish {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #999;
+    font-weight: 700;
+}
+
+.article-detail {
+    position: relative;
+    float: right;
+}
+
+.content-align > hr {
+    display: block;
+    height: 1px;
+     border: 0;
+    border-top: 1px solid #d9d9d9;
+   
+}
+
+/*------------------------------*/
+/*----------Reference-----------*/
+/*------------------------------*/
+
+.reference-align {
+    margin: 0 12px;
+}
+
+.search-btn {
+    text-decoration: none;
+    color: #999;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.search-btn:active {
+    color: #999;
+}
+
+.search-box > input {
+    border: dashed 1px #999;
+    width: 150px;
+    height: 20px;
+}
+
+.five-recent-articles a {
+    display: inline-block;
+    color: #999;
+    margin-bottom: 15px;
+    
+}
+
+.five-recent-articles a:active {
+    color: #999;
+}
+
+
+/*------------------------------*/
+/*------------Footer------------*/
+/*------------------------------*/
+
+.footer {
+    height: 78px;
+    width: 762px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-image: url("../img/footer.jpg");
+    background-position-x: 50%;
+}
