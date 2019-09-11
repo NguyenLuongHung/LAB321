@@ -1,0 +1,170 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2019, 8:07:45 PM
+    Author     : luong
+*/
+
+/*---------------------------------*/
+/*--------------Common-------------*/
+/*---------------------------------*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: serif, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btnlike {
+    background-image: linear-gradient(white, #ebebeb);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.5px solid #e6e6e6;
+}
+
+/*---------------------------------*/
+/*--------------Header-------------*/
+/*---------------------------------*/
+
+.header {
+    width: inherit;
+    height: 230px;
+    background-image: url("../img/bg_top.jpg");
+    background-repeat: no-repeat;
+}
+
+/*----Logo and Heading----*/
+
+.logo-img {
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+
+.heading-primary {
+    position: absolute;
+    left: 160px;
+    top: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+/*------Navigation bar------*/
+.nav > ul {
+    position: absolute;
+    top: 142px;
+    list-style: none;
+}
+
+.nav > ul > li {
+    float: left;
+}
+
+.nav > ul > li > a {
+    display: inline-block;
+    height: 40px;
+    padding: 0 30px;
+    padding-top: 31px;    
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.nav > ul > li > a:active,
+.nav > ul > li > a:visited {
+    color: White;  
+}
+
+.nav > ul > li > a:hover,
+.nav > ul > li > a:hover {
+    color: black;
+    background: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/*------Login-Register------*/
+.log-reg {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    margin-top: 10px;
+}
+
+.login > img,
+.login > span,
+.register > img,
+.register > span{
+    display: block;
+}
+
+.login, .register {
+    display: inline-block;
+}
+.login {
+    margin-right: 20px;
+}
+
+
+/*---------------------------------*/
+/*--------------Cotent-------------*/
+/*---------------------------------*/
+
+.content {
+    width: inherit;
+    height: 372px;
+    background-image: url("../img/bg_top_img.jpg");
+}
+
+.content h3 {
+    margin: 0;
+}
+
+.container-search {
+    position: relative;
+    top: 30px; 
+    left: 40px;
+}
+
+.heading-search {
+    padding: 10px 30px;
+    display: inline-block;
+    
+}
+
+.seach-box {
+    width: 300px; 
+    background-color: white;
+    border: 1px solid #dbdbdb;
+}
+
+
+
+.flight-type {
+    background-color: #ebebeb;
+}
+
+.flight-type-content {
+    position: relative;
+    left: 30px;
+    padding: 20px 0;
+}
+
+.search-box > table {
+    position: relative;
+    left: 30px;
+}
+
+
+
