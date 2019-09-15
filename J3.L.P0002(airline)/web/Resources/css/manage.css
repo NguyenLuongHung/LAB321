@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 13, 2019, 9:32:06 AM
+    Author     : luong
+*/
+
+.homepage-link {
+   
+    color: white;
+}
+
+.booking-link {
+    
+    color: white;
+}
+
+.manage-link {
+    background-image: linear-gradient(white, #ebebeb);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 0.5px solid #e6e6e6;
+    color: black;
+}

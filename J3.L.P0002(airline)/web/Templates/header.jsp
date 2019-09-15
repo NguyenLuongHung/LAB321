@@ -3,19 +3,23 @@
     <span class="heading-primary">Fast, Frequent & Safe Flights</span>
     <div class="nav">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Book</a></li>
-            <li><a href="#">Manage Booking</a></li>
+            <li><a class="homepage-link" href="#">Home</a></li>
+            <li><a class="booking-link" href="#">Book</a></li>
+            <li><a class="manage-link" href="#">Manage Booking</a></li>
         </ul>
     </div>
     <div class="log-reg">
         <div class="login">
-            <img src="Resources/img/home.png"/>
-            <span class="heading-login"><a href="#">Login</a></span>
+            <a href="#">
+                <img src="Resources/img/home.png"/><br/>
+                <span class="small-heading-login">Login</span>
+            </a>
         </div>
-        <div class="register">
-            <img src="Resources/img/register_t.png"/>
-            <span class="heading-register"><a href="#">Register</a></span>
+        <div class="register"> 
+            <a href="#">
+                <img src="Resources/img/register_t.png"/><br/>
+                <span class="small-heading-register">Register</span>
+            </a>
         </div>
     </div>
 </div>

@@ -25,12 +25,14 @@ body {
     transform: translateX(-50%);
 }
 
+
 .btnlike {
     background-image: linear-gradient(white, #ebebeb);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border: 0.5px solid #e6e6e6;
 }
+
 
 /*---------------------------------*/
 /*--------------Header-------------*/
@@ -83,23 +85,54 @@ body {
 
 .nav > ul > li > a:active,
 .nav > ul > li > a:visited {
-    color: White;  
+    
 }
 
 .nav > ul > li > a:hover,
 .nav > ul > li > a:hover {
     color: black;
-    background: white;
+    background-image: linear-gradient(white, #ebebeb);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    border: 0.5px solid #e6e6e6;
 }
 
 /*------Login-Register------*/
 .log-reg {
     position: absolute;
     right: 0;
-    width: 150px;
+    width: 170px;
     margin-top: 10px;
+}
+
+.login img{
+    color: white;
+    width: 25px;
+    height: auto;
+    margin-left: 4px;
+}
+
+.login a, .register a {
+    text-decoration: none;
+}
+
+/*.login a:visited,
+.login a:active,
+.register a:visited,
+.register a:active {
+    color: white;
+}*/
+
+.login a,
+.register a{
+    color: white;
+    font-weight: 500;
+}
+
+.register img {
+    width: 30px;
+    height: auto;
+    margin-left: 7px;
 }
 
 .login > img,
@@ -116,6 +149,10 @@ body {
     margin-right: 20px;
 }
 
+
+/*----------------------------------------------------*/
+/*HOMEPAGE*/
+/*----------------------------------------------------*/
 
 /*---------------------------------*/
 /*--------------Cotent-------------*/
@@ -137,19 +174,16 @@ body {
     left: 40px;
 }
 
+/*-----Heading search------*/
 .heading-search {
     padding: 10px 30px;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
-.seach-box {
-    width: 300px; 
-    background-color: white;
-    border: 1px solid #dbdbdb;
+/*-----flight type------*/
+.flight-type-content span {
+    margin-right: 30px;
 }
-
-
 
 .flight-type {
     background-color: #ebebeb;
@@ -161,10 +195,303 @@ body {
     padding: 20px 0;
 }
 
+/*-----Search box------*/
+
+.seach-box {
+    width: 280px; 
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
 .search-box > table {
     position: relative;
     left: 30px;
 }
 
+/*-----flight detail------*/
+
+.flight-detail {
+    position: relative;
+    left: 30px;
+    margin-top: 20px;
+    padding-bottom: 55px;
+}
+
+.flight-detail select {
+    width: 160px;
+}
+
+.flight-detail input[type=date]{
+    width: 130px;
+}
+
+/*-----Search button------*/
+
+.search-btn {
+    position: relative;
+    left: 150px;
+    
+}
 
 
+
+
+/*---------------------------------*/
+/*--------------Button-------------*/
+/*---------------------------------*/
+
+input[type=submit] {
+    margin-bottom: 20px;
+    padding: 3px 25px;
+    background-image: linear-gradient(#94b2ff, #2b61ff );
+    color: white;
+    border-radius: 5px;
+}
+
+
+/*----------------------------------------------------*/
+/*LOGIN*/
+/*----------------------------------------------------*/
+.login-content {
+    width: inherit;
+}
+
+.login-box {
+    position: relative;
+    width: 300px;
+    
+    left: 220px;
+    
+    margin-top: 30px;
+}
+
+.heading-login-primary {
+    color: red;
+    font-size: 30px;
+    position: relative;
+    left: 80%;
+}
+
+.login-detail {
+    margin-top: 30px;
+}
+
+.login-box input[type=text],
+.login-box input[type=password]{
+    width:210px;
+}
+
+
+.value {
+    display: inline-block;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-weight: 600;
+}
+
+/*----------------------------------------------------*/
+/*BOOK*/
+/*----------------------------------------------------*/
+
+.booking-content {
+    width: 920px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.flight-direction {
+    margin-top: 40px;
+    text-align: right;
+    font-weight: 600;
+    
+}
+
+.departure-list {
+    word-break:break-all;
+}
+
+.big-heading-departure {
+    margin-left: 10px;
+}
+
+.departure-list {
+    margin-left: 10px;
+}
+
+.gray-text {
+    color: #ebebeb;
+}
+
+.departing-date {
+    color: red;
+    font-weight: 600;
+}
+
+.departure-list form {
+    margin-top: 25px;
+   
+}
+
+.departure-list td{
+    padding-right: 50px;
+}
+
+.price-row {
+    width: 250px;
+    background: #2b2b2b;
+}
+
+.price {
+    color: red;
+    font-weight: 600;
+}
+
+.note {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.note, .departure-list td {
+    color: #787878;
+}
+
+.departure-list input[type=submit]{
+    position: absolute;
+    right: 0;
+}
+
+/*----------------------------------------------------*/
+/*Manage Booking Search*/
+/*----------------------------------------------------*/
+
+.manage-booking-search-content h3 {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.manage-booking-search-content input[type=text]{
+    width: 300px;
+}
+
+
+/*----------------------------------------------------*/
+/*Manage Booking Result*/
+/*----------------------------------------------------*/
+
+/*Result only for reservation code*/
+
+.manage-book-result-content {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.manage-book-result-content hr{
+    width: 50%;
+    position:relative;
+    margin: 0;
+}
+
+.heading-booking-recepit, .heading-booking-detail {
+    color: red;
+   
+}
+
+.heading-booking-recepit {
+    font-size: 20px;
+}
+
+.heading-booking-detail {
+    font-size: 18px;
+}
+
+.manage-book-result-content table {
+    margin-bottom: 30px;
+}
+
+.manage-book-result-content td {
+    padding-top:0;
+    padding-right: 150px;
+}
+
+/*Result for all bookings*/
+
+.manage-book-result-list-content {
+    width: 900px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 110px;
+}
+
+.heading-result-list {
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+
+#flights {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#flights, #flights td, #flights th {
+    border: 1px black solid;
+}
+
+#flights tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+#flights tr:hover {
+    background: #ddd;
+}
+
+#flights th {
+    background: #4CAF50;
+    color: white;
+    text-align: left;
+    padding: 12px 0;
+}
+
+
+
+
+
+
+/*----------------------------------------------------*/
+/*Register*/
+/*----------------------------------------------------*/
+
+.register-content {
+    width: 400px;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.register-content td{
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.heading-register {
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.heading-bold {
+    color: red;
+    font-weight: 600;
+}
