@@ -12,6 +12,10 @@
         <servlet-name>SearchController</servlet-name>
         <servlet-class>com.bidd.controller.SearchController</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SearchNoAjaxController</servlet-name>
+        <servlet-class>com.bidd.controller.SearchNoAjaxController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomepageServlet</servlet-name>
         <url-pattern>/home</url-pattern>
@@ -23,6 +27,10 @@
     <servlet-mapping>
         <servlet-name>SearchController</servlet-name>
         <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SearchNoAjaxController</servlet-name>
+        <url-pattern>/searchnoajax</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -4,7 +4,10 @@
         <p>${recent_art.description}<a href="article?id=${recent_art.id}">... More</a></p>
         <span class="article-title"><h3>Search</h3></span>
         <div class="search-box">
-            <input type="text" name="search-title" class="search-title"/><a class="search-btn" href="#">Go</a>
+            <form action="searchnoajax">
+            <input type="text" name="search-title" class="search-title"/>
+            <input type="submit" class="search-btn" value="Go"/>
+            </form>
         </div>
         <span class="article-title"><h3>Last Articles</h3></span>
         <div class="five-recent-articles">

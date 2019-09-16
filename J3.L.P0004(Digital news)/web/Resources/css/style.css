@@ -12,21 +12,26 @@ and open the template in the editor.
 body {
     padding: 0;
     margin: 0;
-    
+
 }
+
+.container {
+    position: relative;
+    width: 760px;
+    left: 50%;
+    transform: translateX(-50%);
+
+} 
 
 /*------------------------------*/
 /*----------Header--------------*/
 /*------------------------------*/
 #header {
-    position: relative;
-    width: 760px;
+    width: inherit;
     height: 71px;
     background-image: url("../img/header.jpg");
     background-repeat: no-repeat;
     background-position-x: 50%;
-    left: 50%;
-    transform: translate(-50%);
     border: solid 1px #000;
     border-bottom: none;
 }
@@ -39,7 +44,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     font-family: sans-serif;
-    
+
 }
 
 /*------------------------------*/
@@ -47,14 +52,11 @@ body {
 /*------------------------------*/
 
 #menu {
-    position: relative;
-    width: 760px;
+    width: inherit;
     height: 32px;
     background-image: url("../img/menu.jpg");
     background-repeat: no-repeat;
     background-position-x: 50%;
-    left: 50%;
-    transform: translate(-50%);
     border: solid 1px #000;
     border-top: none;
     border-bottom: none;
@@ -76,12 +78,9 @@ body {
 
 
 .wrapper {
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    width: 760px;
+    width: inherit;
     display: grid;
-    
+
     grid-template-columns: 7fr 3fr;
     grid-auto-rows: auto;
     grid-gap: 2px;
@@ -93,7 +92,7 @@ body {
 
 .content {
     border-right: dashed #999 1px;
-    
+
 }
 
 /*------------------------------*/
@@ -110,7 +109,7 @@ body {
 }
 
 .search-result > a {
-    
+
     display: inline-block;
     color: #999;
     margin-bottom: 15px;
@@ -144,9 +143,9 @@ body {
 .content-align > hr {
     display: block;
     height: 1px;
-     border: 0;
+    border: 0;
     border-top: 1px solid #d9d9d9;
-   
+
 }
 
 /*------------------------------*/
@@ -178,7 +177,7 @@ body {
     display: inline-block;
     color: #999;
     margin-bottom: 15px;
-    
+
 }
 
 .five-recent-articles a:active {
@@ -193,9 +192,6 @@ body {
 .footer {
     height: 78px;
     width: 762px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
     background-image: url("../img/footer.jpg");
     background-position-x: 50%;
 }
